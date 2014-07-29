@@ -1,0 +1,25 @@
+{
+  "name": "ampersand-view-jquery-mixin",
+  "version": "0.0.1",
+  "description": "Support this.$ and this.$el in Ampersand views.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whobubble/ampersand-view-jquery-mixin.git"
+  },
+  "keywords": [
+    "ampersand",
+    "view",
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whobubble/ampersand-view-jquery-mixin/issues"
+  },
+  "homepage": "https://github.com/whobubble/ampersand-view-jquery-mixin",
+  "dependencies": {}
+}
