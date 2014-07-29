@@ -21,5 +21,7 @@
     "url": "https://github.com/whobubble/ampersand-view-jquery-mixin/issues"
   },
   "homepage": "https://github.com/whobubble/ampersand-view-jquery-mixin",
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^2.1.1"
+  }
 }
