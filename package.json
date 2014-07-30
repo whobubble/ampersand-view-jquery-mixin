@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/whobubble/ampersand-view-jquery-mixin",
   "dependencies": {
-    "jquery": "^2.1.1"
+    "jquery": "*"
   }
 }
