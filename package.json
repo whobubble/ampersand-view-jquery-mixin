@@ -1,6 +1,6 @@
 {
   "name": "ampersand-view-jquery-mixin",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Support this.$ and this.$el in Ampersand views.",
   "main": "ampersand-view-jquery-mixin.js",
   "scripts": {
