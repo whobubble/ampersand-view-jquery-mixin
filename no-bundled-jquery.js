@@ -1,4 +1,4 @@
-var jQuery = require('jquery');
+var jQuery = window.$;
 var mixinBase = require('./mixin-base');
 
 

@@ -11,7 +11,9 @@ Includes a dependency to jQuery 2.
 npm install ampersand-view-jquery-mixin
 ```
 
-## example
+## usage
+
+This will load jQuery via require()
 
 ```javascript
 var View = require('ampersand-view');
@@ -25,6 +27,20 @@ module.exports = View.extend(jqueryMixin, {
         this.$el[0];
         // ...
     }
+});
+```
+
+## usage when jQuery is already available as window.$
+
+This will use an existing window.$ so that not another copy of jQuery is loaded.
+
+```javascript
+var View = require('ampersand-view');
+var jqueryMixin = require('ampersand-view-jquery-mixin/no-bundled-jquery');
+
+
+module.exports = View.extend(jqueryMixin, {
+   // ...
 });
 ```
 
